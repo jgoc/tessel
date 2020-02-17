@@ -25,3 +25,4 @@ fields:
   label: feature_image
 pages:
 - content/te.md
+- test/te1.md
