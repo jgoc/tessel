@@ -4,11 +4,15 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Main
 - type: directory
   path: test
   label: Get
   create: all
   match: "**/*"
+  templates:
+  - post
 - type: heading
   label: Content
 - type: directory
